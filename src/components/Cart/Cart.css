@@ -1,0 +1,21 @@
+.cart {
+    /*background-color: #FF9900;*/
+    background-color: rgba(255, 153, 0, 0.3);
+}
+
+.cart-title {
+    text-align: center;
+}
+
+.cart-information {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.cart p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    /*color: #2A414F;*/
+}

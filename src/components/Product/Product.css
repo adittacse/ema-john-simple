@@ -25,8 +25,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
-    line-height: 25px;
-    letter-spacing: 0.0015em;
+    /*line-height: 25px;*/
+    /*letter-spacing: 0.0015em;*/
 }
 
 .manufacture {
@@ -45,7 +45,7 @@
     position: absolute;
     bottom: 0;
     color: black;
-    background-color: #FFE0B3;
+    background-color: rgba(255, 153, 0, 0.3);
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
 }
