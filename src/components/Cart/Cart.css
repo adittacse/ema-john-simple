@@ -2,6 +2,8 @@
     background-color: rgba(255, 153, 0, 0.3);
     position: sticky;
     top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .cart-title {
