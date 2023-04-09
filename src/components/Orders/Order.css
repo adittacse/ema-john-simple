@@ -1,3 +1,7 @@
 .review-container {
     margin: 100px auto;
 }
+
+.proceed-link {
+    text-decoration: none;
+}
