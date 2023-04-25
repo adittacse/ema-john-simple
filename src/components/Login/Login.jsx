@@ -42,6 +42,11 @@ const Login = () => {
             </form>
             <p className="login-text"><small>New to Ema-john? <span><Link className="link" to="/signup">Create New Account</Link></span></small></p>
             <p className="text-error">{error}</p>
+            <div className="optional-login">
+                <hr/>
+                <p><small>or</small></p>
+                <hr/>
+            </div>
         </div>
     );
 };

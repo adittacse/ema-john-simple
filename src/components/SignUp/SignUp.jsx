@@ -54,6 +54,11 @@ const SignUp = () => {
             </form>
             <p className="login-text"><small>Already have an account? <span><Link className="link" to="/login">Login</Link></span></small></p>
             <p className="text-error">{error}</p>
+            <div className="optional-login">
+                <hr/>
+                <p><small>or</small></p>
+                <hr/>
+            </div>
         </div>
     );
 };

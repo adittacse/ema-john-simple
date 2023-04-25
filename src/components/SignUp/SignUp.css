@@ -1,6 +1,6 @@
 .form-container {
     width: 430px;
-    /*height: 600px;*/
+    height: fit-content;
     margin: 128px auto;
     padding-left: 40px;
     padding-right: 40px;
@@ -74,6 +74,7 @@
 .login-text {
     text-align: center;
     margin-top: 10px;
+    color: #2A414F;
 }
 
 .login-text span {
@@ -89,5 +90,27 @@
     text-align: center;
     color: rgb(243, 89, 89);
     margin-top: 10px;
-    padding-bottom: 30px;
+}
+
+.optional-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.optional-login hr {
+    width: 35%;
+    border: 1px solid #95A0A7;
+    padding: 0;
+    height: 0;
+}
+
+.optional-login p {
+    color: #95A0A7;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
 }
