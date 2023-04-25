@@ -71,4 +71,9 @@
 
 p {
     text-align: center;
+    margin-top: 10px;
+}
+
+p span {
+    color: #FF9900;
 }
