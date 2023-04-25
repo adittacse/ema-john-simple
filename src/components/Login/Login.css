@@ -27,6 +27,7 @@
 }
 
 .form-control label {
+    padding-left: 12px;
     display: block;
     font-family: 'Lato';
     font-style: normal;
