@@ -68,3 +68,7 @@
 .btn-submit:hover {
     background: rgba(255, 153, 0, 0.6);
 }
+
+span {
+    color: #FF9900;
+}
