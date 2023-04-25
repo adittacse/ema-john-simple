@@ -22,7 +22,7 @@ const Login = () => {
             })
             .catch(error => {
                 console.log(error);
-                setError(error.message);
+                setError("Wrong Credentials");
             })
     }
     
