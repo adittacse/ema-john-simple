@@ -8,7 +8,6 @@ const Login = () => {
     const { signIn } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
-    console.log(location);
     
     const from = location.state?.from?.pathname || "/";
     
@@ -22,12 +21,10 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 const loggedUser = result.user;
-                console.log(loggedUser);
                 form.reset();
                 navigate(from, {replace: true});
             })
             .catch(error => {
-                console.log(error);
                 setError("Wrong Credentials");
             })
     }
