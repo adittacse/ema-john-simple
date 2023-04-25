@@ -24,7 +24,6 @@
 
 .form-control {
     margin-bottom: 20px;
-    /*border: 2px solid red;*/
 }
 
 .form-control label {
@@ -70,11 +69,11 @@
     background: rgba(255, 153, 0, 0.6);
 }
 
-p {
+.login-text {
     text-align: center;
     margin-top: 10px;
 }
 
-p span {
+.login-text span {
     color: #FF9900;
 }
