@@ -79,6 +79,11 @@
     color: #FF9900;
 }
 
+.link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
 .text-error {
     text-align: center;
     color: rgb(243, 89, 89);
