@@ -20,3 +20,12 @@ nav.header a {
 nav.header a:hover {
     color: orange;
 }
+
+.welcome-text {
+    margin-left: 32px;
+}
+
+.text-white {
+    color: white;
+    margin-left: 32px;
+}

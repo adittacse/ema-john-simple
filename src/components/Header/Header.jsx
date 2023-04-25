@@ -28,8 +28,8 @@ const Header = () => {
                 <Link to="/login">Login</Link>
                 <Link to="/signup">Sign up</Link>
                 {
-                    user && <span>Welcome {user.email}
-                        <button onClick={handleSignOut}>Sign Out</button></span>
+                    user && <span className="welcome-text">Welcome {user.email}
+                        <button className="text-white" onClick={handleSignOut}>Log Out</button></span>
                 }
             </div>
         </nav>
